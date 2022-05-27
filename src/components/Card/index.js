@@ -2,7 +2,6 @@ import React from 'react'
 import Button from '../Button'
 
 export default function Card (props) {
-  console.log(props)
   return (
     <div className={`w-full shadow-xl flex-col p-4 my-4 rounded-lg hover:scale-105 duration-200 ${props.customStyles}`}>
       <img

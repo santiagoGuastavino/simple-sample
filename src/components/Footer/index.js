@@ -33,6 +33,7 @@ export default function Footer () {
               text2={list.text2}
               text3={list.text3}
               text4={list.text4}
+              text5={list.text5}
             />
           ))
         }

@@ -3,6 +3,7 @@ import {
   AiOutlineClose,
   AiOutlineMenu
 } from 'react-icons/ai'
+import Title from '../Title'
 
 export default function MobileMenu ({ sidebar, setSidebar }) {
   const handleClick = () => {
@@ -24,7 +25,7 @@ export default function MobileMenu ({ sidebar, setSidebar }) {
             : 'fixed left-[-100%]'
         }
       >
-        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4 mt-8'>REACT.</h1>
+        <Title customStyles='m-4 mt-8' />
         <ul className='uppercase p-4'>
           <li className='p-4 border-b border-gray-600'>Home</li>
           <li className='p-4 border-b border-gray-600'>Company</li>

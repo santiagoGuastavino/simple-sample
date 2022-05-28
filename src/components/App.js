@@ -5,6 +5,7 @@ import Hero from './Hero'
 import Analytics from './Analytics'
 import Newsletter from './Newsletter'
 import Cards from './Cards'
+import Footer from './Footer'
 
 export default function App () {
   return (
@@ -14,6 +15,7 @@ export default function App () {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </>
   )
 }

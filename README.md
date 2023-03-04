@@ -1,4 +1,4 @@
-[React Tailwind]()
+[Simple Sample.](https://simple-sample.vercel.app/)
 ---
 
 This web app was built with [React.js](https://reactjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/).  
